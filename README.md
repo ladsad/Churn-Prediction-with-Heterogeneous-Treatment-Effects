@@ -80,6 +80,18 @@ uvicorn api.main:app --reload
 | Average Treatment Effect | -12% (intervention reduces churn) |
 | Relative Churn Reduction | ~24% |
 
+## Visualizations
+
+### Key Results Dashboard
+![Results Dashboard](docs/results_dashboard.png)
+
+### Model Performance vs Causal Estimates
+![Model Performance](docs/model_performance.png)
+![Causal Effect Comparison](docs/causal_effect_comparison.png)
+
+### Heterogeneous Treatment Effects
+![Treatment Effects by Segment](docs/segment_treatment_effects.png)
+
 ## License
 
 MIT
